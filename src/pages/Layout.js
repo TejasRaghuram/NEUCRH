@@ -10,15 +10,18 @@ function Layout() {
     const navigate = useNavigate();
     return (
         <div>
-            <div id="navbar">
-                <img id="logo" src={Logo} alt=""/>
-                <button class="nav-link" onClick={() => {navigate('/')}}>Donate</button>
-                <button class="nav-link" onClick={() => {navigate('/receive')}}>Receive</button>
-                <button id="nav-logout" onClick={() => {
-                    user.setUsername(null);
-                    navigate('/login')
-                }}>Log Out</button>
-            </div>
+            {
+                user.username != null &&
+                <div id="navbar">
+                    <img id="logo" src={Logo} alt=""/>
+                    <button class="nav-link" onClick={() => {navigate('/')}}>Donate</button>
+                    <button class="nav-link" onClick={() => {navigate('/receive')}}>Receive</button>
+                    <button id="nav-logout" onClick={() => {
+                        user.setUsername(null);
+                        navigate('/login')
+                    }}>Log Out</button>
+                </div>
+            }
             <div id="space"/>
             <Outlet/>
             <p id="footer">Designed and Developed by Dev Chechi, Mahiya Patil, and Tejas Raghuram.</p>
