@@ -1,0 +1,129 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif; /* Apply Quicksand to the whole body */
+}
+
+.container {
+    /* Other styles */
+}
+
+label {
+    font-family: 'Quicksand', sans-serif; /* Specific to label */
+}
+
+input {
+    font-family: 'Quicksand', sans-serif; /* Specific to input */
+}
+
+button {
+    font-family: 'Quicksand', sans-serif; /* Specific to buttons */
+}
+
+
+/* Button styles */
+button.login-button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button.cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Hover effects */
+button.login-button:hover {
+    opacity: 0.8;
+}
+
+button.cancel-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Body styles */
+body {
+    background-color: rgba(238, 235, 235, 0.89);
+    margin: 0;
+    height: 100vh;
+}
+
+/* Centers avatar image */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    align-items: center;
+}
+
+/* Avatar image */
+img.udonlogo {
+    width: 40%;
+    border-radius: 50%;
+    align-items: center;
+}
+
+/* Adds padding */
+.container {
+    padding: 16px;
+    align-items: center;
+}
+
+/* Centers the button container and create account button */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-account-container {
+    margin-top: 10px;
+    text-align: center; /* Center text inside this div */
+}
+
+button.create-account-button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Avatar image styles */
+#logo {
+    width: 250px;
+    margin-left: calc(50% - 125px);
+}
