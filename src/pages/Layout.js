@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import Logo from './../styles/Logo.png';
 import './../styles/Layout.css';
 
 function Layout() {
@@ -7,7 +8,7 @@ function Layout() {
     return (
         <div>
             <div id="navbar">
-                <div id="logo"/>
+                <img id="logo" src={Logo} alt=""/>
                 <button class="nav-link" onClick={() => {navigate('/')}}>Donate</button>
                 <button class="nav-link" onClick={() => {navigate('/receive')}}>Receive</button>
                 <button id="nav-logout" onClick={() => {navigate('/login')}}>Log Out</button>
