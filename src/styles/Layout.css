@@ -1,0 +1,70 @@
+#navbar {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: gainsboro;
+    z-index: 10;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: magenta;
+    display: inline-block;
+}
+
+.nav-link {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.25s;
+}
+
+.nav-link:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+#nav-logout {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    color: white;
+    background-color: #276221;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    transition: 0.25s;
+}
+
+#nav-logout:hover {
+    background-color: #3b8132;
+    cursor: pointer;
+}
+
+#space {
+    margin-top: 80px;
+}
+
+#footer {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: darkgray;
+    text-align: center;
+}
