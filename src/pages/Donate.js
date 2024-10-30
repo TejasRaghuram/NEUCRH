@@ -1,4 +1,8 @@
+import { useContext } from "react";
 import "./../styles/Donate.css";
+import { UserContext } from "../UserContext";
+import { useNavigate } from "react-router-dom";
+import Load from './../styles/Load.png';
 
 function Organization(props) {
     return (
@@ -12,6 +16,16 @@ function Organization(props) {
 }
 
 function Donate() {
+    const navigate = useNavigate();
+    const user = useContext(UserContext);
+    if(user.username == null)
+    {
+        return(
+            <img src={Load} alt='' onLoad={() => {
+                navigate('/login');
+            }}/>
+        );
+    }
     return (
         <div id="donate">
             <h1 id="donate-header">Donate Towards a Cause</h1>

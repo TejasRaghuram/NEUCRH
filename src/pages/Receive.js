@@ -1,6 +1,20 @@
+import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { UserContext } from '../UserContext';
+import Load from "./../styles/Load.png";
 import './../styles/Receive.css';
 
 function Receive() {
+    const navigate = useNavigate();
+    const user = useContext(UserContext);
+    if(user.username == null)
+    {
+        return(
+            <img src={Load} alt='' onLoad={() => {
+                navigate('/login');
+            }}/>
+        );
+    }
     return (
         <div id="receive">
             <h1>Receive Money</h1>

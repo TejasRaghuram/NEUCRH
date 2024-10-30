@@ -1,7 +1,9 @@
 import Logo from './../styles/Logo.png';
 import './../styles/Login.css';
+import { useNavigate } from 'react-router-dom';
 
 function SignUp() {
+    const navigate = useNavigate();
     return (
         <div>
             <div id="login-bg"/>
@@ -16,7 +18,7 @@ function SignUp() {
 
                     <div className="button-container">
                         <button type="submit" className="login-button"><b>Create Account</b></button>
-                        <button type="button" className="create-account-button">
+                        <button type="button" className="create-account-button" onClick={() => {navigate('/login')}}>
                             Login
                         </button>
                     </div>
