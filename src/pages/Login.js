@@ -20,7 +20,6 @@ const Login = () => {
 
                     <div className="button-container">
                         <button type="submit" className="login-button"><b>Login</b></button>
-                        <button type="button" className="cancel-button"><b>Cancel</b></button>
                         <button type="button" className="create-account-button" onClick={handleCreateAccount}>
                             <b>Create Account</b>
                         </button>
