@@ -1,0 +1,13 @@
+#error-title {
+    font-size: 72px;
+    text-align: center;
+    margin-top: calc(50vh - 100px);
+}
+
+#error-sub {
+    margin-bottom: 50px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
