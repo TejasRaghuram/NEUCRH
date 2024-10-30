@@ -109,7 +109,7 @@ function Receive() {
                             alert('Success!');
                         } else {
                             const json = await response.json();
-                            alert(JSON.stringify(json));
+                            alert(json.error);
                         }
                     }
                     const race_buttons = document.getElementsByName('race');
