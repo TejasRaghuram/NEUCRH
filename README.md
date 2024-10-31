@@ -30,3 +30,12 @@ Through features like an equitable donation algorithm and transparent fund distr
 1. Clone the repository
    ```bash
    git clone https://github.com/TejasRaghuram/NEUCRH.git
+2. Navigate to Project Directory
+   ```bash
+   cd UDonate
+4. Install Dependencies
+   ```bash
+   npm install
+5. Usage
+   ```bash
+   npm start
