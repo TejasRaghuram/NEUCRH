@@ -15,7 +15,7 @@ Through features like an equitable donation algorithm and transparent fund distr
 ## Team
 - **[Dev Chechi](https://www.linkedin.com/in/devmchechi/) (Backend Developer):** Developed the server and API endpoints in JavaScript using Express and MongoDB, enabling secure and efficient handling of transactions and donations.
 - **[Tejas Raghuram](https://www.linkedin.com/in/tejasr06/) (Frontend Developer):** Implemented the main pages and integrated API endpoints to facilitate smooth communication between the frontend and backend.
-- **[Mahiya Patil](https://www.linkedin.com/in/mahiya-patil-bb1b57233) (UI/UX Designer):** Designed and programmed the login and signup pages with secure, encrypted authentication, enhancing user experience and data protection.
+- **[Mahiya Patil](https://www.linkedin.com/in/mahiyapatil) (UI/UX Designer):** Designed and programmed the login and signup pages with secure, encrypted authentication, enhancing user experience and data protection.
 
 ## Video Demo
 [Watch the Demo on YouTube](https://www.youtube.com/)
