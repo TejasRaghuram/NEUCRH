@@ -18,7 +18,7 @@ Through features like an equitable donation algorithm and transparent fund distr
 - **[Mahiya Patil](https://www.linkedin.com/in/mahiyapatil) (UI/UX Designer):** Designed and programmed the login and signup pages with secure, encrypted authentication, enhancing user experience and data protection.
 
 ## Video Demo
-[Watch the Demo on YouTube](https://www.youtube.com/)
+[Watch the Demo on YouTube](https://youtu.be/SxeU0PbxwDw)
 
 ## Getting Started
 ### Prerequisites
